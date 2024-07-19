@@ -3,7 +3,7 @@
 #include <fstream>
 
 int main() {
-    std::ofstream file("../binaryPic.txt", std::ios::binary);
+    std::ofstream file("../binaryPic.txt");
     if (!file) {
         return 0;
     }
